@@ -44,7 +44,7 @@ This guide provides multiple deployment options for your Django application.
 2. **Clone/Update repository:**
    ```bash
    cd /home/ubuntu
-   git clone -b deployment https://github.com/malogomez90/cobro.git webapps2024
+   git clone -b deployment https://github.com/malogomez90/cobro2.git webapps2024
    cd webapps2024
    ```
 

@@ -10,7 +10,7 @@ echo "🚀 Starting deployment process..."
 # Configuration
 PROJECT_NAME="webapps2024"
 PROJECT_DIR="/home/ubuntu/webapps2024"
-REPO_URL="https://github.com/malogomez90/cobro.git"
+REPO_URL="https://github.com/malogomez90/cobro2.git"
 BRANCH="deployment"
 PYTHON_ENV="/home/ubuntu/webapps2024/venv"
 

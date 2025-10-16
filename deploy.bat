@@ -18,6 +18,7 @@ echo.
 echo 📋 Next steps:
 echo 1. SSH into your AWS EC2 server (52.203.137.55)
 echo 2. Run the deployment script on the server:
+echo    git clone https://github.com/malogomez90/cobro2.git /home/ubuntu/webapps2024
 echo    chmod +x /home/ubuntu/webapps2024/deploy.sh
 echo    /home/ubuntu/webapps2024/deploy.sh
 echo.
