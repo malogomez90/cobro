@@ -23,7 +23,11 @@ class ThriftServerSingleton:
     def _port_is_available(self, port):
         """Check if the specified port is available on the local host."""
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-            return s.connect_ex(('localhost', port)) != 0
+            try:
+                s.bind(('localhost', port))
+                return True
+            except OSError:
+                return False
 
     def start_server(self):
         """Start the Thrift server."""
