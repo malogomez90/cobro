@@ -1,0 +1,21 @@
+# Production requirements for webapps2024
+Django==5.0.2
+djangorestframework==3.14.0
+django-crispy-forms==2.1
+crispy-bootstrap5==2024.2
+django-extensions==3.2.3
+thrift==0.20.0
+gevent==24.2.1
+gunicorn==21.2.0
+psycopg2-binary==2.9.9
+whitenoise==6.6.0
+
+# For SSL/TLS support
+pyOpenSSL==24.1.0
+cryptography==42.0.5
+
+# For better logging and monitoring
+sentry-sdk==1.40.0
+
+# For environment variables
+python-decouple==3.8
